@@ -202,13 +202,101 @@ li {
 }
 .hot_properties {
 	text-align: center;
+	margin-bottom: 50px;
 }
 .hot_properties h2 {
 	font-weight: bold;
 }
-.hot_properties p {
+.hot_properties > p {
     margin-bottom: 40px;
     font-size: 18px;
+}
+.hot_properties_overflow {
+	overflow: hidden;
+    margin-right: 2.5%;
+}
+.content_one_ads {
+    width: 1900px;
+    margin-left: 2.5%;
+    padding-top: 10px;
+}
+.hot_properties_item {
+	position: relative;
+	text-align: left;
+	float: left;
+	width: 300px;
+    height: 340px;
+    box-shadow: -4px -4px 6px #888888;
+    margin-right: 10px;
+}
+.hot_properties_item_top {
+    position: relative;
+}
+.hot_properties_item_top img {
+    padding: 10px;
+}
+.visite_libre {
+    position: absolute;
+    top: 0;
+    border-bottom: 60px solid transparent;
+    border-top: 60px solid #0a368a;
+    border-left: 60px solid #0a368a;
+    border-right: 60px solid transparent;
+    color: white;
+    width: 120px;
+    height: 120px;
+    transform: rotate(360deg);
+} 
+.visite_libre p {
+    transform: rotate(-45deg);
+    text-align: center;
+    margin: -37px 0 0 -40px;
+    font-weight: bold;
+}
+.hot_properties_item_top .tag_p {
+	position: absolute;
+    top: 0;
+    right: 30px;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 1px #000;
+    color: #0074e3;
+    font-size: 30px;
+}
+.hot_properties_item_bot {
+	padding: 0 10px;
+}
+.hot_properties_item_bot p {
+	margin: 0;
+}
+.hot_properties_item_bot p.main_p {
+	color: #0074e3;
+}
+.hot_properties_item_bot p.min_p {
+	font-size: 13px;
+}
+.hot_properties_zindex {
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 340px;
+    background: #0a368a;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+    padding-right: 45px;
+}
+.hot_properties_zindex p {
+	font-size: 30px;
+    margin: 0;
+}
+.hot_properties_zindex i {
+	font-size: 50px;
 }
 .get_started {
 	background: url("../images/getstart_bg.png") no-repeat;
