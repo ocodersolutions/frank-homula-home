@@ -3,6 +3,9 @@
 li {
 	list-style: none;
 }
+.clr {
+	clear: both;
+}
 
 /************************************** end default style *******************************************/
 #header_top {
@@ -117,7 +120,7 @@ li {
     position: absolute;
     z-index: 2;
     width: 100%;
-    top: 100px;
+    top: 30px;
 }
 #homepage_search .title_page {
     color: white;
@@ -129,7 +132,7 @@ li {
     margin-bottom: 30px;
 }
 .home_search_main {
-	width: 70%;
+	width: 944px;
     margin: 0 auto;
     color: white;
     background: #039be5;
@@ -139,6 +142,7 @@ li {
 }
 .home_search_main ul {
 	margin-bottom: 0;
+	padding-top: 10px;
 }
 .home_search_main ul li {
 	width: 141px;
@@ -175,16 +179,214 @@ li {
 }
 .home_search_main form input[type=text] {
     height: 80px;
-    width: 100%;
+    margin-left: 22px;
+    width: 95.4%;
+    border-radius: 10px;
+    border: 0;
+    padding: 20px;
+    margin-top: -11px;
 }
 .home_search_main form input[type=submit] {
 	background: url("../images/submit_search.png");
 	width: 157px;
     height: 62px;
     position: absolute;
-    right: 37px;
-    top: 8px;
+    right: 55px;
+    top: -2px;
 }
 .home_search_main form button {
 	background: url("../images/search_option.png");
+    margin: 20px 0px 5px 400px;
+    width: 188px;
+    height: 62px;
+}
+.hot_properties {
+	text-align: center;
+}
+.hot_properties h2 {
+	font-weight: bold;
+}
+.hot_properties p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+.get_started {
+	background: url("../images/getstart_bg.png") no-repeat;
+    text-align: center;
+    color: white;
+    height: 307px;
+}
+.get_started h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+.get_started p {
+	font-size: 18px;
+}
+.get_started button {
+    width: 188px;
+    height: 62px;
+    background: url("../images/getstart_search_bg.png") no-repeat scroll 0 0 / 100% auto;
+    margin: 20px 0;
+}
+.content_video h2 {
+    margin: 20px 0;
+    text-align: center;
+    font-weight: bold;
+}
+.content_video .video_play {
+    float: left;
+    width: 65%;
+    padding: 0 50px;
+}
+.content_video .video_play img {
+    width: 100%;
+}
+.content_video .video_text b {
+    margin-bottom: 15px;
+    display: block;
+}
+.content_video .video_text p {
+    text-align: justify;
+    margin-right: 50px;
+}
+.content_video .video_text button {
+	width: 188px;
+	height: 62px;
+    background: url("../images/watch_now_bg.png");
+    margin-top: 20px;
+}
+.top_agents h2 {
+	font-weight: bold;
+    text-align: center;
+}
+.main_top_agents {
+	background: url("../images/top_agents_bg.png") no-repeat;
+    text-align: center;
+    height: 331px;
+    padding: 15px 0 0 3.5%;
+}
+.top_agents_content {
+    float: left;
+    background: rgba(0, 116, 228, 0.4) none repeat scroll 0 0;
+    margin: 0 0.5%;
+    width: 31%;
+    height: 304px;
+}
+.avartar_agents {
+	float: left;
+	width: 50%;
+	height: 274px;
+    padding: 5px 10px;
+    margin: 15px 0;
+    border-right: 1px solid white;
+}
+.avartar_agents img {
+    width: 100%;
+}
+.detail_agents {
+	float: left;
+	width: 50%;
+    color: white;
+    padding: 50px 10px 0 10px;
+}
+.detail_agents p {
+	margin: 0;
+    text-align: left;
+}
+.detail_agents .agents_properties {
+	margin-bottom: 10px;
+}
+.real_estate_news h2 {
+	text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.real_estate_all_post {
+	padding: 0 0 80px 4%;
+}
+.real_estate_post {
+	float: left;
+    width: 31%;
+    margin: 0 0.5%;
+    border: 2px solid #eeeeee;
+}
+.real_estate_post_img {
+	width: 100%;
+    position: relative;
+}
+.real_estate_post_img img {
+    width: 100%;
+}
+.real_estate_post_img p {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 10px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 116, 228, 0.6) none repeat scroll 0 0;
+}
+.real_estate_post_detail {
+	padding: 20px;
+    text-align: right;
+}
+.real_estate_post_detail p {
+	text-align: justify;
+}
+.real_estate_post_detail a {
+	font-style: italic;
+}
+.body_footer_content {
+	background: #04286e;
+    color: white;
+}
+.list_footer h4 {
+	border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+.body_footer_line {
+    width: 100%;
+    height: 5px;  
+    padding: 50px 0;
+}
+.line_footer {
+	background: url("../images/footer_line.png") no-repeat;
+	max-width: 942px;
+	height: 2px;
+	margin: 0 auto;
+}
+.body_footer_bot {
+	text-align: center;
+}
+.footer_bot_one {
+	margin-bottom: 15px;
+}
+.footer_bot_one span {
+	margin-right: 20px;
+}
+.footer_bot_two {
+	margin-bottom: 40px;
+}
+.footer_bot_two > span {
+    margin-right: 5px;
+}
+.footer_icon_link {
+	display: inline-block;
+}
+.footer_icon_link a i{
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	font-style: normal;
+	width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+    font-size: 20px;
 }
