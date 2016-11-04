@@ -191,6 +191,7 @@ li {
     border: 0;
     padding: 20px;
     margin-top: -11px;
+    font-style: italic;
 }
 .home_search_main form input[type=submit] {
 	background: url("../images/submit_search.png");
@@ -295,7 +296,7 @@ li {
     color: white;
     text-align: center;
     padding-top: 130px;
-    padding-right: 45px;
+    padding-right: 70px;
 }
 .hot_properties_zindex p {
 	font-size: 30px;
