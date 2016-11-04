@@ -331,8 +331,6 @@ li {
     font-weight: bold;
 }
 .content_video .video_play {
-    float: left;
-    width: 65%;
     padding-right: 50px;
 }
 .content_video .video_play img {
@@ -363,10 +361,7 @@ li {
     padding: 15px 0 0 0;
 }
 .top_agents_content {
-    float: left;
     background: rgba(0, 116, 228, 0.4) none repeat scroll 0 0;
-    margin: 0 0.5%;
-    width: 32%;
     height: 304px;
 }
 .avartar_agents {
@@ -401,11 +396,19 @@ li {
 }
 .real_estate_all_post {
     padding-bottom: 80px;
+    margin: 0 0 0 15px;
+}
+.real_estate_all_post .real_estate_custom1 {
+	padding-left: 0;
+    padding-right: 30px;
+}
+.real_estate_all_post .real_estate_custom2 {
+	margin-left: -7px;
+}
+.real_estate_all_post .real_estate_custom3 {
+	margin-left: 7px;
 }
 .real_estate_post {
-	float: left;
-    width: 32%;
-    margin: 0 0.5%;
     box-shadow: -4px -4px 2px #cccccc;
 }
 .real_estate_post_img {
