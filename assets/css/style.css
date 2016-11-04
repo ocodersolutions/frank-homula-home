@@ -356,7 +356,7 @@ li {
     float: left;
     background: rgba(0, 116, 228, 0.4) none repeat scroll 0 0;
     margin: 0 0.5%;
-    width: 31%;
+    width: 32%;
     height: 304px;
 }
 .avartar_agents {
@@ -474,4 +474,19 @@ li {
     border-radius: 50%;
     margin: 0 5px;
     font-size: 20px;
+}
+@media (min-width: 1366px) {
+	body .container {
+		width: 1230px;
+	}
+}
+@media (min-width: 1600px) {
+	body .container {
+		width: 1500px;
+	}
+}
+@media (min-width: 1899px) {
+	body .container {
+		width: 1810px;
+	}
 }
