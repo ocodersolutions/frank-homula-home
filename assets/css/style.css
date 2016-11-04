@@ -1,5 +1,9 @@
 /**************************************** default style *********************************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 li {
 	list-style: none;
 }
@@ -125,7 +129,7 @@ li {
 #homepage_search .title_page {
     color: white;
     font-size: 30px;
-    width: 60%;
+    width: 944px;
     margin: 0 auto;
     font-weight: bold;
     text-align: center;
@@ -172,6 +176,8 @@ li {
 }
 .home_search_main ul li p {
 	margin: -5px 0 0 0;
+	font-style: italic;
+    font-size: 12px;
 }
 .home_search_main form {
 	padding: 0 20px 10px 20px;
@@ -193,12 +199,14 @@ li {
     position: absolute;
     right: 55px;
     top: -2px;
+    border: 0;
 }
 .home_search_main form button {
 	background: url("../images/search_option.png");
     margin: 20px 0px 5px 400px;
-    width: 188px;
+    width: 187px;
     height: 62px;
+    border: 0;
 }
 .hot_properties {
 	text-align: center;
@@ -305,7 +313,7 @@ li {
 .get_started h2 {
     font-weight: bold;
     margin-bottom: 0;
-    margin-top: 35px;
+    margin-top: 50px;
 }
 .get_started p {
 	font-size: 18px;
@@ -314,7 +322,8 @@ li {
     width: 188px;
     height: 62px;
     background: url("../images/getstart_search_bg.png") no-repeat scroll 0 0 / 100% auto;
-    margin: 20px 0;
+    margin: 64px 0;
+    border: 0;
 }
 .content_video h2 {
     margin: 20px 0;
@@ -341,6 +350,7 @@ li {
 	height: 62px;
     background: url("../images/watch_now_bg.png");
     margin-top: 20px;
+    border: 0;
 }
 .top_agents h2 {
 	font-weight: bold;
@@ -366,6 +376,7 @@ li {
     padding: 5px 10px;
     margin: 15px 0;
     border-right: 1px solid white;
+    line-height: 273px;
 }
 .avartar_agents img {
     width: 100%;
@@ -374,7 +385,7 @@ li {
 	float: left;
 	width: 50%;
     color: white;
-    padding: 50px 10px 0 10px;
+    padding: 80px 10px 0 10px;
 }
 .detail_agents p {
 	margin: 0;
@@ -395,7 +406,7 @@ li {
 	float: left;
     width: 32%;
     margin: 0 0.5%;
-    border: 2px solid #eeeeee;
+    box-shadow: -4px -4px 2px #cccccc;
 }
 .real_estate_post_img {
 	width: 100%;
